@@ -6,6 +6,9 @@ const mongoose = require('mongoose');
 //Load profile model
 const Profile = require('../../models/Profile');
 
+//Load Validation
+const validateProfileInput = require('../../validation/profile');
+
 //Load user model
 const User = require('../../models/User');
 
@@ -18,6 +21,7 @@ router.get('/', passport.authenticate('jwt', { session: false }), (req,res) => {
     const errors = {};
 
     Profile.findOne({ user: req.user.id })
+        .populate('user', ['name', 'avatar'])
         .then( profile => {
             if(!profile){
                 errors.noprofile = 'There is no user profile';
