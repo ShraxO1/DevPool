@@ -15,7 +15,7 @@ const User = require('../../models/User');
 router.get('/test', (req, res) => res.json({msg: 'Profile Works'}));
 
 //@route GET api/profile
-//@desc get cuurent user profile
+//@desc get current user profile
 //@access private
 router.get('/', passport.authenticate('jwt', { session: false }), (req,res) => {
     const errors = {};
@@ -31,6 +31,65 @@ router.get('/', passport.authenticate('jwt', { session: false }), (req,res) => {
         })
         .catch(err => res.status(404).json(err));
 });
+
+
+// @route   POST api/profile/user/:user_id
+// @desc    To see profile of other users using id
+// @access  Public
+router.get('/user/:user_id', (req, res) => {
+    const errors = {};
+
+    Profile.findOne({user : req.params.user_id })
+        .populate('user', ['name', 'avatar'])
+        .then(profile => {
+            if(!profile){
+                errors.noprofile = 'Profile does not exist';
+                res.status(404).json(errors);
+            }
+            res.json(profile);
+        })
+        .catch(err => res.status(404).json({profile: 'There is no profile for this user'}));
+});
+
+//@route   GET api/profile/all
+// @desc    Get all profiles
+// @access  Public
+
+router.get('/all', (req, res) => {
+    const errors = {};
+
+    Profile.find()
+        .populate('user', ['name', 'avatar'])
+        .then(profiles => {
+            if (!profiles) {
+                errors.noprofile = 'There are no profiles';
+                return res.status(404).json(errors);
+            }
+
+            res.json(profiles);
+        })
+        .catch(err => res.status(404).json({ profile: 'There are no profiles' }));
+});
+
+
+// @route   POST api/profile/handle/:handle
+// @desc    To see profile of other users using handle
+// @access  Public
+router.get('/handle/:handle', (req, res) => {
+    const errors = {};
+
+    Profile.findOne({handle: req.params.handle })
+        .populate('user', ['name', 'avatar'])
+        .then(profile => {
+            if(!profile){
+                errors.noprofile = 'Profile does not exist';
+                res.status(404).json(errors);
+            }
+            res.json(profile);
+        })
+        .catch(err => res.status(404).json({profile: 'There is no profile for this user'}));
+});
+
 
 // @route   POST api/profile
 // @desc    Create or edit user profile
