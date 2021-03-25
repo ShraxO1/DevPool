@@ -146,7 +146,7 @@ Register.prototypes = {
 
 const mapStateToProps = (state) => ({
     auth: state.auth,
-    errors: state.err
+    errors: state.errors
 });
 
 export default connect(mapStateToProps ,{registerUser} )(withRouter(Register));
