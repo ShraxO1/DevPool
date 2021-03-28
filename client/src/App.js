@@ -9,6 +9,7 @@ import {clearCurrentProfile} from "./actions/profileActions";
 import PrivateRoute from "./components/common/PrivateRoute";
 
 import Dashboard from "./components/dashboard/Dashboard";
+import CreateProfile from "./components/create-profile/CreateProfile";
 import Navbar from './components/layout/Navbar';
 import Landing from './components/layout/Landing';
 import Footer from './components/layout/Footer';
@@ -50,6 +51,9 @@ function App() {
                     <Route exact path='/login' component={Login}/>
                     <Switch>
                     <PrivateRoute exact path='/dashboard' component={Dashboard}/>
+                    </Switch>
+                    <Switch>
+                        <PrivateRoute exact path='/create-profile' component={CreateProfile}/>
                     </Switch>
                 </div>
                 <Footer/>
