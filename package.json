@@ -9,7 +9,8 @@
     "start": "node server.js",
     "server": "nodemon server.js --ignore client",
     "client": "npm start --prefix client",
-    "dev": "(cd client && npm start) & npm run server"
+    "dev": "(cd client && npm start) & npm run server",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION= false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
