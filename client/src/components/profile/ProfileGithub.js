@@ -8,8 +8,8 @@ class ProfileGithub extends Component {
         this.state = {
             clientId: '52c185766e0bb837fd33',
             clientSecret: 'a28babc8df87fb753ace4a1d2c29812b0ac08620',
-            count: 5,
-            sort: 'created: asc',
+            count: 4,
+            sort: 'stargazers_count: dsc',
             repos: []
         };
     }
