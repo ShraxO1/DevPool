@@ -19,7 +19,10 @@ P.S: You might have to wait for a few seconds for the heroku site to respond.
 <p align="center">
 
 ![GitHub Logo](/client/src/img/1.png)
-Format: ![Alt Text](url)
+![GitHub Logo](/client/src/img/2.png)
+![GitHub Logo](/client/src/img/3.png)
+![GitHub Logo](/client/src/img/4.png)
+![GitHub Logo](/client/src/img/5.png)
 
 </p>
 
