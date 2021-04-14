@@ -7,7 +7,8 @@ fellow developers and let recruiters know about their skills for the perfect job
 
 -   Fork this repo and run the `git clone <forked repo>` command from your terminal/bash
 -   Cd into the directories and `npm install`
--   Run the server on PORT 3000
+-   Server will run at PORT 5000    
+-   React server will run at PORT 3000
 -   `npm run dev`
 
 ## Demo
@@ -17,13 +18,14 @@ P.S: You might have to wait for a few seconds for the heroku site to respond.
 
 <p align="center">
 
- <img alt="login page" src="https://i.ibb.co/bWBJLhB/Screenshot-834.png" width="534" height="300" />
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
 </p>
 
 ## Info
 
--   
+-   This is a Social media application exclusively for software developers where they can create portfolios and connect with other developers.
 -   There is no exploitation of data, as the app only requires access to your accounts to fetch your unique ID for authentication/authorization purposes, and no personal details(except your registred user name on the social account) is used by the application.
 -   The frontend of the app is built using React and I have used Bootstrap classes for styling the components in addition to my local CSS styles.
 -   It has been deployed using Heroku's free tier and the Mongodb Atlas's cloud service is used for the database service. The access to the database is restricted to only 1 authorised user, and as mentioned earlier, there is no personal user data stored in it.
