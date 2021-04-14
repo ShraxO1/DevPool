@@ -20,8 +20,8 @@ class Landing extends Component {
                   <h1 className="display-3 mb-4">Developer Connector</h1>
                   <p className="lead">
                     {' '}
-                    Create a developer profile/portfolio, share posts and get help
-                    from other developers
+                    Create a developer profile/portfolio and get noticed by recruiters,
+                    connect with other developers
                   </p>
                   <hr />
                   <Link to="/register" className="btn btn-lg btn-info mr-2">

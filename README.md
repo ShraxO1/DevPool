@@ -1,7 +1,5 @@
 # Developer Pool
 
-  <img src=/frontend/public/android-chrome-192x192.png>
-
 A MERN stack application where software developers can create their digital resumes, connect with other
 fellow developers and let recruiters know about their skills for the perfect job, with user authentication.
 
@@ -9,17 +7,13 @@ fellow developers and let recruiters know about their skills for the perfect job
 
 -   Fork this repo and run the `git clone <forked repo>` command from your terminal/bash
 -   Cd into the directories and `npm install`
--   Create a `.env` file in the root directory and store the following:
-    -   MONGO_URI=Insert the correct connection URL for your MongoDB database
-    -   SECRET_OR_KEY= 'secret'
 -   Run the server on PORT 3000
--   npm run dev
-
-You can obtain the MONGO_URI after create a collectoin on [mongodb atlas](https://www.mongodb.com/cloud/atlas).
+-   `npm run dev`
 
 ## Demo
 
-The app has been hosted on heroku [here](https://developerpool.herokuapp.com/). P.S: You might have to wait for a few seconds for the heroku site to respond.
+The app has been hosted on heroku [here](https://developerpool.herokuapp.com/).
+P.S: You might have to wait for a few seconds for the heroku site to respond.
 
 <p align="center">
 
