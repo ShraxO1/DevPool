@@ -46,5 +46,5 @@ Some of the technologies used in the development of this web application are:
 -   [Mongoose](https://mongoosejs.com/): An ODM(Object Data Modelling)library for MongoDB and Node.js
 -   [Heroku](http://heroku.com/): A platform(PaaS) to deploy full stack web applications for free.
 -   [JSON Web Tokens or JWTs](https://jwt.io/): A standard to securely authenticate HTTP requests
--   [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/): A popular framework for building responsive, mobile-first sites.
+-   [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/): A popular frontend framework.
 
