@@ -3,7 +3,7 @@
 A MERN stack application where software developers can create their digital resumes, connect with other
 fellow developers and let recruiters know about their skills for the perfect job, with user authentication.
 
-![GitHub](https://img.shields.io/apm/l/vim-mode) ![Heroku](https://developerpool.herokuapp.com/?app=devPool&path=/&style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/ShraxO1/DevPool?style=flat-square) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![GitHub](https://img.shields.io/apm/l/vim-mode) ![Heroku](https://developerpool.herokuapp.com/?app=DevPool&path=/&style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/ShraxO1/DevPool?style=flat-square) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Getting Started
 
