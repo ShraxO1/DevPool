@@ -3,6 +3,8 @@
 A MERN stack application where software developers can create their digital resumes, connect with other
 fellow developers and let recruiters know about their skills for the perfect job, with user authentication.
 
+![GitHub](https://img.shields.io/apm/l/vim-mode) ![Heroku](https://pyheroku-badge.herokuapp.com/?app=mern-blog-it&path=/&style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Rajatm544/Mern-Blog-App?style=flat-square) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ## Getting Started
 
 -   Fork this repo and run the `git clone <forked repo>` command from your terminal/bash
