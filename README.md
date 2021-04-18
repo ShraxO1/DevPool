@@ -5,6 +5,19 @@ fellow developers and let recruiters know about their skills for the perfect job
 
 ![GitHub](https://img.shields.io/apm/l/vim-mode) ![GitHub last commit](https://img.shields.io/github/last-commit/ShraxO1/DevPool?style=flat-square) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+
+## Prerequisites and Dependencies
+* [Install BcryptJS](https://www.npmjs.com/package/bcryptjs)
+* [Install body-parser](https://www.npmjs.com/package/body-parser)
+* [Install Concurrently](https://www.npmjs.com/package/concurrently)
+* [Install Express](https://www.npmjs.com/package/express)
+* [Install Gravatar](https://www.npmjs.com/package/gravatar)
+* [Install JSON Web Token](https://www.npmjs.com/package/jsonwebtoken)
+* [Install Mongoose](https://www.npmjs.com/package/mongoose)
+* [Install Passport](https://www.npmjs.com/package/passport)
+* [Install Passport-JWT](https://www.npmjs.com/package/passport-jwt)
+* [Install Validator](https://www.npmjs.com/package/validator)
+
 ## Getting Started
 
 -   Fork this repo and run the `git clone <forked repo>` command from your terminal/bash
@@ -50,3 +63,29 @@ Some of the technologies used in the development of this web application are:
 -   [JSON Web Tokens or JWTs](https://jwt.io/): A standard to securely authenticate HTTP requests
 -   [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/): A popular frontend framework.
 
+
+
+## Want to Contribute?
+
+To start contributing, follow the below guidelines: 
+
+**1.**  Fork [this](git@github.com:ShraxO1/DevPool.git) repository.
+
+**2.**  Clone your forked copy of the project.
+
+     $ git clone https://github.com/<your_user_name>/DevPool.git
+
+     
+**3.** Checkout into a new branch 
+
+     $ git checkout -b <branch_name>
+
+**4.** Make your changes
+
+**5.** Add and commit your changes
+
+     $ git add . && git commit -m "<your_message>"
+     
+**6.** Push Code to Github under your branch 
+
+     $ git push origin <branch_name>   
